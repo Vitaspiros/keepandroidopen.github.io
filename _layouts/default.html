@@ -134,8 +134,8 @@
               </ul>
           </div>
           <div style="flex: 3; min-width: 300px; margin: 20px;">
-              <p>{{page.site_disclaimer | markdownify}}</p>
-              <p>{{page.site_privacy | markdownify}}</p>
+              {{page.site_disclaimer | markdownify}}
+              {{page.site_privacy | markdownify}}
               <p>
                   {{page.site_copyright | markdownify | remove: '<p>' | remove: '</p>' | strip }} <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a><img src="/img/cc.svg" alt="CC0 logo" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="/img/zero.svg" alt="CC0 zero logo" style="max-width: 1em;max-height:1em;margin-left: .2em;">
               </p>
