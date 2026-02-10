@@ -1,0 +1,37 @@
+---
+import Letter from "../layouts/Letter.astro";
+import { getCollection } from 'astro:content';
+import { getEntry } from 'astro:content';
+
+const pages = await getCollection('pages');
+console.log(`pages: ${pages.map(page => page.id)}`);
+const entry = await getEntry('pages', 'letter');
+console.log(`entry: ${entry}`);
+if (!entry) throw new Error('Letter content not found');
+const { Content } = await entry.render();
+const { data } = entry;
+---
+<Letter {...data}>
+  <article class="prose dark:prose-invert">
+    <Content />
+    <div class="signatures-block">
+      <h2>Signatures</h2>
+      <ul id="signatures-list"></ul>
+    </div>
+  </article>
+</Letter>
+
+<script>
+  import signatures from "../data/signatures.yaml";
+
+  const signaturesList = document.getElementById("signatures-list");
+
+  signatures.forEach(signature => {
+    const listItem = document.createElement("li");
+    listItem.innerHTML = `
+      <strong>${signature.name}</strong><br>
+      ${signature.title}, ${signature.organization}
+    `;
+    signaturesList.appendChild(listItem);
+  });
+</script>
