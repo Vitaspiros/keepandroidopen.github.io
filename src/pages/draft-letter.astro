@@ -2,6 +2,7 @@
 import Letter from "../layouts/Letter.astro";
 import { getCollection } from 'astro:content';
 import { getEntry } from 'astro:content';
+import signatures from "../data/signatures.yaml";
 
 const pages = await getCollection('pages');
 console.log(`pages: ${pages.map(page => page.id)}`);
@@ -14,23 +15,17 @@ const { data } = entry;
 <Letter {...data}>
   <article class="prose dark:prose-invert">
     <Content />
+    <!--
     <div class="signatures-block">
       <h2>Signatures</h2>
-      <ul id="signatures-list"></ul>
+      <ul>
+        {signatures.map(signature => (
+          <li>
+            <strong>{signature.organization}</strong> (<a target="_blank" href={`https://${signature.url}`}>{signature.url}</a>)
+          </li>
+        ))}
+      </ul>
     </div>
+    -->
   </article>
 </Letter>
-
-<script>
-  import signatures from "../data/signatures.yaml";
-
-  const signaturesList = document.getElementById("signatures-list");
-
-  signatures.forEach(signature => {
-    const listItem = document.createElement("li");
-    listItem.innerHTML = `
-      <strong>${signature.organization}</strong> (<a target="_blank" href="https://${signature.url}">${signature.url}</a>)
-    `;
-    signaturesList.appendChild(listItem);
-  });
-</script>
