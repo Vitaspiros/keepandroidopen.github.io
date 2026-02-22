@@ -32,6 +32,9 @@ To provide a translation into a new language like Italian (language code: "it"):
 2. Create a new folder in [`src/content/pages/`](https://github.com/keepandroidopen/keepandroidopen.github.io/tree/main/src/content/pages/) and add the translation of the English `index.md` file. Translate the markdown headers and page content. The most important text is at the beginning; the lists of links do not all need to be translated.
 3. Commit changes to your fork and file a Pull Request with your translation.
 
+> [!IMPORTANT]
+> Please do not submit machine-generated translations (using LLMs or AI tools). We need _authentic human translations_ from _native speakers_ of the language.
+
 ## License 
 
 [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) – free reuse.
