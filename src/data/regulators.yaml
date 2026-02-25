@@ -2177,3 +2177,18 @@ countries:
           ar: "متاح عبر الإنترنت على [12315.cn](https://www.12315.cn/). المنصة متاحة فقط في جمهورية الصين لمنع الهجمات الإلكترونية."
           en: "Online at [12315.cn](https://www.12315.cn/). Platform only accessible in the Chinese Mainland to prevent cyber attacks."
           zh-CN: "线上[全国12315平台](https://www.12315.cn/)，为防止网络攻击仅可在中国大陆访问"
+  - id: "saudi-arabia"
+    name:
+     ar: "المملكة العربية السعودية"
+     en: "Saudi Arabia"
+     fr: "Arabie Saoudite"
+    items:
+      - text:
+          ar: "تواصل مع [الهيئة العامة للمنافسة](https://gac.gov.sa)"
+          en: "Contact the [General Authority for Competition](https://gac.gov.sa)"
+          fr: "Contactez [l'Authorité Général Pour le Compétition](https://gac.gov.sa)"
+      - text:
+          ar: "البريد الإلكتروني: [info@gac.gov.sa](mailto:info@gac.gov.sa?cc=sa@keepandroidopen.org)"
+          en: "Email: [info@gac.gov.sa](mailto:info@gac.gov.sa?cc=sa@keepandroidopen.org)"
+          fr: "Courriel: [info@gac.gov.sa](mailto:info@gac.gov.sa?cc=sa@keepandroidopen.org)"
+  
