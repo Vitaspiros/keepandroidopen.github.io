@@ -18,12 +18,14 @@ const { locale } = Astro.props;
 const byLabel = resolve({ en: 'by', ru: 'от' }, locale);
 ---
 
-<h4 id="rightsGroups">{resolve(rightsGroups.heading, locale)}</h4>
-<ul>
-  {rightsGroups.items.map((item: any) => (
-    <li><a href={resolve(item.url, locale)} target="_blank">{resolve(item.text, locale)} ↗</a></li>
-  ))}
-</ul>
+<details id="rightsGroups">
+  <summary><h4>{resolve(rightsGroups.heading, locale)}</h4></summary>
+  <ul>
+    {rightsGroups.items.map((item: any) => (
+      <li><a href={resolve(item.url, locale)} target="_blank">{resolve(item.text, locale)} ↗</a></li>
+    ))}
+  </ul>
+</details>
 
 <h2 id="references">{resolve(references.heading, locale)}</h2>
 

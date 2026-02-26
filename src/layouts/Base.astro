@@ -287,6 +287,31 @@ const dir = isRtl(lang) ? "rtl" : "ltr";
       color: #ef5350;
     }
 
+    details > summary {
+      list-style: none;
+      cursor: pointer;
+    }
+
+    details > summary::-webkit-details-marker {
+      display: none;
+    }
+
+    details > summary > h4 {
+      display: inline;
+    }
+
+    details > summary::before {
+      content: '▸';
+      font-size: 1.5em;
+      display: inline-block;
+      margin-inline-end: 0.4em;
+      transition: transform 0.2s ease;
+    }
+
+    details[open] > summary::before {
+      transform: rotate(90deg);
+    }
+
   </style>
 </head>
 <body>
