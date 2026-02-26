@@ -72,5 +72,5 @@ open_letter_description: "Ένα ανοιχτό γράμμα για την υπ�
 - Προσφέρετε ανατροφοδότηση κατευθείαν στην Google χρησιμοποιώντας την [έρευνα για τις απαιτήσεις της επαλήθευσης προγραμματιστών του Android](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
 - Κάντε τη φωνή σας να ακουστεί στα κοινωνικά δίκτυα και με δημοσιεύσεις σε blog, και παραπέμψτε στο <https://keepandroidopen.org>.
 - Καταπολεμήστε το αστροτούρφινγκ: όταν συναντάτε ύποπτες δημοσιεύσεις σε φόρουμ κοινότητας ή κοινωνικά δίκτυα που υποστηρίζουν αυτήν την πολιτική («Λοιπόν, βασικά...»), αντιμετωπίστε τες και μην ντρέπεστε.
-- Βοηθήστε αυτό το έργο [προσθέτοντας σε αυτήν τη σελίδα](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/en/index.md) περισσότερες χρήσιμες πληροφορίες.
+- Βοηθήστε αυτό το έργο [προσθέτοντας σε αυτήν τη σελίδα](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/el/index.md) περισσότερες χρήσιμες πληροφορίες.
 - [Υπογράψτε αυτό το υπόμνημα στο change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage)

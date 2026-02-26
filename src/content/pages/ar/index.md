@@ -72,7 +72,7 @@ open_letter_description: "رسالة مفتوحة للدعوة إلى أندرو
 - قدّم ملاحظاتك مباشرة إلى جوجل باستخدام [استبيان متطلبات التحقق من مطوّري أندرويد](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
 - عبّر عن رأيك على وسائل التواصل الاجتماعي ومن خلال منشورات المدونات، و اربط إلى <https://keepandroidopen.org>
 - واجه حملات الترويج المموّه: عندما تصادف منشورات مشبوهة في المنتديات ووسائل التواصل تدعم السياسة («حسنًا، في الواقع…»)، تحدَّها ولا تتردد.
-- ساعد هذا المشروع عبر [تحرير هذه الصفحة](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/en/index.md) وإضافة معلومات أكثر فائدة.
+- ساعد هذا المشروع عبر [تحرير هذه الصفحة](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/ar/index.md) وإضافة معلومات أكثر فائدة.
 - [وقّع على عريضة change.org هذه](https://www.change.org/p/stop-google-from-limiting-apk-file-usage)
 
 ### مالكو المواقع: أظهروا دعمكم {#webmasters}

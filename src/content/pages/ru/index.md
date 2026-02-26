@@ -118,7 +118,7 @@ iPhone - всегда заключалось в открытости. Но, по
 - Противодействуйте искусственной поддержке инициативы: если
   встречаете подозрительные посты в поддержку политики («Но на самом деле...»), спорьте с ними и не молчите.
 - Помогите проекту, [отредактировав
-  страницу](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/en/index.md)
+  страницу](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/ru/index.md)
   и добавив полезную информацию.
 - [Подпишите
   петицию](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)

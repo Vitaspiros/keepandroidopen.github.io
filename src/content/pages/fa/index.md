@@ -75,7 +75,7 @@ open_letter_description: "یک نامهٔ سرگشاده به جهت اعلام 
 - به وسیلهٔ [پرسش نیازمندی‌های تأیید توسعه‌دهندگان اندروید](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1) مستقیماً به خود گوگل بازخورد خود را ارائه دهید.
 - صدای خود را در شبکه‌های اجتماعی و وبلاگ‌های خود، به گوش دیگران برسانید و پیوندی به وبگاه <https://keepandroidopen.org> دهید.
 - با کارزارهای ساختگی مبارزه کنید: هنگامی که در تالارهای گفتگو و شبکه‌های اجتماعی، با فرسته‌های مشکوک مواجه می‌شوید، آن‌ها را به چالش کشیده و در برابر آن‌ها، خجالت نکشید.
-- با [ویرایش این صفحه](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/en/index.md) و اضافه کردن اطّلاعات مفید، به این پروژه کمک کنید.
+- با [ویرایش این صفحه](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/fa/index.md) و اضافه کردن اطّلاعات مفید، به این پروژه کمک کنید.
 - [کارزار change.org مربوطه را امضا کنید](https://www.change.org/p/stop-google-from-limiting-apk-file-usage)
 
 ### مالکان وبگاه‌ها: حمایت خود را نشان دهید {#webmasters}
